@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "version": 1,
+    "createdAt": "2026-07-08T12:00:00.000Z"
+  },
+  "config": {
+    "metodoCosteo": "FIFO",
+    "umbrales": {
+      "sana": 15,
+      "lenta": 50,
+      "muyLenta": 100
+    }
+  },
+  "productos": [
+    {
+      "id": "p1",
+      "nombre": "Monitor Industrial 4K"
+    },
+    {
+      "id": "p2",
+      "nombre": "Servidor Rack 2U"
+    },
+    {
+      "id": "p3",
+      "nombre": "Switch Gigabit 48 Puertos"
+    },
+    {
+      "id": "p4",
+      "nombre": "UPS Trifásico 10kVA"
+    },
+    {
+      "id": "p5",
+      "nombre": "Bobina Fibra Óptica 1000m"
+    },
+    {
+      "id": "p6",
+      "nombre": "Patch Panel 24 Puertos"
+    },
+    {
+      "id": "p7",
+      "nombre": "Router Wi-Fi 6 Empresarial"
+    },
+    {
+      "id": "p8",
+      "nombre": "Cámara Domo PTZ IP"
+    }
+  ],
+  "movimientos": [
+    {
+      "id": "m01",
+      "productoId": "p1",
+      "tipo": "compra",
+      "cantidad": 50,
+      "costoUnitario": 400,
+      "fecha": "2024-07-01T08:00:00.000Z",
+      "_cogs": 20000,
+      "_ingreso": 0
+    },
+    {
+      "id": "m02",
+      "productoId": "p1",
+      "tipo": "venta",
+      "cantidad": 10,
+      "costoUnitario": 600,
+      "fecha": "2024-09-15T10:30:00.000Z",
+      "_cogs": 4000,
+      "_ingreso": 6000
+    },
+    {
+      "id": "m03",
+      "productoId": "p1",
+      "tipo": "venta",
+      "cantidad": 15,
+      "costoUnitario": 620,
+      "fecha": "2025-05-10T14:15:00.000Z",
+      "_cogs": 6000,
+      "_ingreso": 9300
+    },
+    {
+      "id": "m04",
+      "productoId": "p1",
+      "tipo": "venta",
+      "cantidad": 5,
+      "costoUnitario": 590,
+      "fecha": "2026-01-20T09:00:00.000Z",
+      "_cogs": 2000,
+      "_ingreso": 2950
+    },
+    {
+      "id": "m05",
+      "productoId": "p2",
+      "tipo": "compra",
+      "cantidad": 20,
+      "costoUnitario": 1500,
+      "fecha": "2025-01-10T11:00:00.000Z",
+      "_cogs": 30000,
+      "_ingreso": 0
+    },
+    {
+      "id": "m06",
+      "productoId": "p2",
+      "tipo": "venta",
+      "cantidad": 3,
+      "costoUnitario": 2200,
+      "fecha": "2025-03-05T16:45:00.000Z",
+      "_cogs": 4500,
+      "_ingreso": 6600
+    },
+    {
+      "id": "m07",
+      "productoId": "p2",
+      "tipo": "venta",
+      "cantidad": 4,
+      "costoUnitario": 2100,
+      "fecha": "2025-11-20T10:20:00.000Z",
+      "_cogs": 6000,
+      "_ingreso": 8400
+    },
+    {
+      "id": "m08",
+      "productoId": "p3",
+      "tipo": "compra",
+      "cantidad": 100,
+      "costoUnitario": 120,
+      "fecha": "2025-07-15T09:30:00.000Z",
+      "_cogs": 12000,
+      "_ingreso": 0
+    },
+    {
+      "id": "m09",
+      "productoId": "p3",
+      "tipo": "venta",
+      "cantidad": 20,
+      "costoUnitario": 190,
+      "fecha": "2025-09-10T11:10:00.000Z",
+      "_cogs": 2400,
+      "_ingreso": 3800
+    },
+    {
+      "id": "m10",
+      "productoId": "p3",
+      "tipo": "venta",
+      "cantidad": 30,
+      "costoUnitario": 185,
+      "fecha": "2026-02-14T15:30:00.000Z",
+      "_cogs": 3600,
+      "_ingreso": 5550
+    },
+    {
+      "id": "m11",
+      "productoId": "p3",
+      "tipo": "venta",
+      "cantidad": 15,
+      "costoUnitario": 200,
+      "fecha": "2026-05-01T08:45:00.000Z",
+      "_cogs": 1800,
+      "_ingreso": 3000
+    },
+    {
+      "id": "m12",
+      "productoId": "p4",
+      "tipo": "compra",
+      "cantidad": 30,
+      "costoUnitario": 800,
+      "fecha": "2026-02-01T10:00:00.000Z",
+      "_cogs": 24000,
+      "_ingreso": 0
+    },
+    {
+      "id": "m13",
+      "productoId": "p4",
+      "tipo": "venta",
+      "cantidad": 5,
+      "costoUnitario": 1100,
+      "fecha": "2026-03-15T14:20:00.000Z",
+      "_cogs": 4000,
+      "_ingreso": 5500
+    },
+    {
+      "id": "m14",
+      "productoId": "p4",
+      "tipo": "venta",
+      "cantidad": 8,
+      "costoUnitario": 1150,
+      "fecha": "2026-05-20T11:00:00.000Z",
+      "_cogs": 6400,
+      "_ingreso": 9200
+    },
+    {
+      "id": "m15",
+      "productoId": "p5",
+      "tipo": "compra",
+      "cantidad": 200,
+      "costoUnitario": 50,
+      "fecha": "2026-04-15T09:15:00.000Z",
+      "_cogs": 10000,
+      "_ingreso": 0
+    },
+    {
+      "id": "m16",
+      "productoId": "p5",
+      "tipo": "venta",
+      "cantidad": 40,
+      "costoUnitario": 85,
+      "fecha": "2026-05-10T13:40:00.000Z",
+      "_cogs": 2000,
+      "_ingreso": 3400
+    },
+    {
+      "id": "m17",
+      "productoId": "p5",
+      "tipo": "venta",
+      "cantidad": 60,
+      "costoUnitario": 90,
+      "fecha": "2026-06-25T10:10:00.000Z",
+      "_cogs": 3000,
+      "_ingreso": 5400
+    },
+    {
+      "id": "m18",
+      "productoId": "p5",
+      "tipo": "venta",
+      "cantidad": 20,
+      "costoUnitario": 88,
+      "fecha": "2026-07-01T15:25:00.000Z",
+      "_cogs": 1000,
+      "_ingreso": 1760
+    },
+    {
+      "id": "m19",
+      "productoId": "p6",
+      "tipo": "compra",
+      "cantidad": 150,
+      "costoUnitario": 30,
+      "fecha": "2026-06-12T08:30:00.000Z",
+      "_cogs": 4500,
+      "_ingreso": 0
+    },
+    {
+      "id": "m20",
+      "productoId": "p6",
+      "tipo": "venta",
+      "cantidad": 25,
+      "costoUnitario": 55,
+      "fecha": "2026-06-20T11:45:00.000Z",
+      "_cogs": 750,
+      "_ingreso": 1375
+    },
+    {
+      "id": "m21",
+      "productoId": "p6",
+      "tipo": "venta",
+      "cantidad": 40,
+      "costoUnitario": 50,
+      "fecha": "2026-07-02T14:30:00.000Z",
+      "_cogs": 1200,
+      "_ingreso": 2000
+    },
+    {
+      "id": "m22",
+      "productoId": "p7",
+      "tipo": "compra",
+      "cantidad": 80,
+      "costoUnitario": 150,
+      "fecha": "2026-06-28T10:00:00.000Z",
+      "_cogs": 12000,
+      "_ingreso": 0
+    },
+    {
+      "id": "m23",
+      "productoId": "p7",
+      "tipo": "venta",
+      "cantidad": 15,
+      "costoUnitario": 230,
+      "fecha": "2026-07-02T09:15:00.000Z",
+      "_cogs": 2250,
+      "_ingreso": 3450
+    },
+    {
+      "id": "m24",
+      "productoId": "p7",
+      "tipo": "venta",
+      "cantidad": 10,
+      "costoUnitario": 240,
+      "fecha": "2026-07-06T16:10:00.000Z",
+      "_cogs": 1500,
+      "_ingreso": 2400
+    },
+    {
+      "id": "m25",
+      "productoId": "p8",
+      "tipo": "compra",
+      "cantidad": 60,
+      "costoUnitario": 200,
+      "fecha": "2026-07-03T08:50:00.000Z",
+      "_cogs": 12000,
+      "_ingreso": 0
+    },
+    {
+      "id": "m26",
+      "productoId": "p8",
+      "tipo": "venta",
+      "cantidad": 8,
+      "costoUnitario": 310,
+      "fecha": "2026-07-05T11:20:00.000Z",
+      "_cogs": 1600,
+      "_ingreso": 2480
+    },
+    {
+      "id": "m27",
+      "productoId": "p8",
+      "tipo": "venta",
+      "cantidad": 12,
+      "costoUnitario": 305,
+      "fecha": "2026-07-07T14:00:00.000Z",
+      "_cogs": 2400,
+      "_ingreso": 3660
+    }
+  ]
+}

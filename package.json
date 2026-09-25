@@ -1,0 +1,45 @@
+{
+  "name": "rotastock",
+  "version": "1.0.0",
+  "description": "RotaStock - Control de Rotación de Inventario (offline, portable, FIFO estricto)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win portable"
+  },
+  "author": "RotaStock",
+  "license": "MIT",
+  "build": {
+    "appId": "com.rotastock.app",
+    "productName": "RotaStock",
+    "copyright": "Copyright © 2024 RotaStock",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "frontend/**/*"
+    ],
+    "extraFiles": [
+      {
+        "from": "datos",
+        "to": "datos",
+        "filter": ["**/*"]
+      },
+      {
+        "from": "backups",
+        "to": "backups",
+        "filter": ["**/*"]
+      }
+    ],
+    "win": {
+      "target": [{ "target": "portable" }],
+      "artifactName": "RotaStock.exe"
+    }
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.9.1"
+  }
+}

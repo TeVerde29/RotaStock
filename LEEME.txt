@@ -1,0 +1,20 @@
+ROTASTOCK - Comandos (ejecutar en PowerShell, dentro de esta carpeta)
+=====================================================================
+
+Requisito: tener instalado Node.js (https://nodejs.org)
+
+1) Instalar dependencias (solo la primera vez, requiere internet):
+       npm install
+
+2) Abrir la aplicacion en modo desarrollo:
+       npm start
+
+3) Generar el ejecutable portable (.exe):
+       npm run build
+   El archivo queda en:  dist\RotaStock.exe
+
+Notas
+- Los datos se guardan en la carpeta "datos" (inventario.json) y las copias
+  de seguridad automaticas en "backups".
+- Para empezar con el inventario vacio, borra datos\inventario.json:
+  la aplicacion crea uno nuevo al abrir.

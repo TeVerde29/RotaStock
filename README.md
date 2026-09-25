@@ -11,6 +11,11 @@
   <img src="https://img.shields.io/badge/Licencia-MIT-64748b?style=for-the-badge" alt="Licencia MIT">
 </p>
 
+<p align="center">
+  <img src="./img/image-01.png" alt="Pantalla principal de RotaStock" width="640">
+  <img src="./img/image-02.png" alt="Vista de productos de RotaStock" width="640">
+</p>
+
 ---
 
 ## Tabla de contenidos
@@ -20,6 +25,7 @@
 - [Stack tecnológico](#stack-tecnológico)
 - [Arquitectura](#arquitectura)
 - [Modelado FIFO y métricas de rotación](#modelado-fifo-y-métricas-de-rotación)
+- [Descarga](#descarga)
 - [Instalación y uso](#instalación-y-uso)
 - [Requisitos del sistema](#requisitos-del-sistema)
 - [Persistencia y copias de seguridad](#persistencia-y-copias-de-seguridad)
@@ -114,6 +120,16 @@ A partir de ese estado derivado, para un período `[t₀, t₁]`:
 La **semaforización** por inactividad es independiente de la rotación en veces: un producto puede tener rotación alta en el período y, aun así, estar **Dormido** si lleva más días sin movimiento que el umbral configurado. Esa doble lectura —velocidad histórica vs. silencio reciente— es deliberada, y es la que dispara la alerta de capital inmovilizado.
 
 > La memoria descriptiva completa del proyecto —con la formulación matemática detallada del replay FIFO, los indicadores y el esquema de persistencia— está disponible en [`/docs/Memoria_Descriptiva_RotaStock.pdf`](./docs).
+
+---
+
+## Descarga
+
+Puedes descargar la última versión publicada del proyecto desde la siguiente página:
+
+- [Releases de RotaStock](https://github.com/TeVerde29/RotaStock/releases/latest)
+
+Allí encontrarás el archivo ejecutable disponible para Windows y la versión más reciente publicada.
 
 ---
 
